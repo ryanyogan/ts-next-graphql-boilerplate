@@ -1,6 +1,6 @@
 {
   "name": "ts-monorepo-boilerplate",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "repository": "git@github.com:ryanyogan/ts-monorepo-boilerplate.git",
   "author": "Ryan Yogan <ryanyogan@gmail.com>",
