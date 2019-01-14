@@ -1,13 +1,15 @@
 {
-  "name": "ts-monorepo-boilerplate",
+  "name": "ts-cli",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "repository": "git@github.com:ryanyogan/ts-monorepo-boilerplate.git",
   "author": "Ryan Yogan <ryanyogan@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "ts-node ./src/index.ts"
   },
+  "preferGlobal": true,
+  "bin": "./index.js",
   "devDependencies": {
     "@types/inquirer": "^0.0.43",
     "@types/ncp": "^2.0.1",
