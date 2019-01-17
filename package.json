@@ -1,26 +1,22 @@
 {
-  "name": "ts-cli",
-  "version": "0.0.1",
-  "main": "./dist/index.js",
+  "version": "0.2.0",
   "repository": "git@github.com:ryanyogan/ts-monorepo-boilerplate.git",
   "author": "Ryan Yogan <ryanyogan@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "ts-node ./src/index.ts"
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   },
-  "preferGlobal": true,
-  "bin": "./index.js",
+  "resolutions": {
+    "graphql": "14.0.2"
+  },
   "devDependencies": {
-    "@types/inquirer": "^0.0.43",
-    "@types/ncp": "^2.0.1",
-    "@types/node": "^10.12.18",
-    "nodemon": "^1.18.9",
-    "ts-node": "^7.0.1",
-    "typescript": "^3.2.2"
+    "lerna": "3.10.5"
   },
-  "dependencies": {
-    "commander": "^2.19.0",
-    "inquirer": "^6.2.1",
-    "ncp": "^2.0.0"
+  "scripts": {
+    "build:server": "lerna run build --scope={@codeponder/common, @codeponder/server}",
+    "build:web": "lerna run build --scope={@codeponder/ui, @codeponder/common, @codeponder/web"
   }
 }
