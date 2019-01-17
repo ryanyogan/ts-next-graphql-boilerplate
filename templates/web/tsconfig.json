@@ -16,5 +16,5 @@
     "sourceMap": true,
     "composite": true
   },
-  "references": [{ "path": "../ui" }]
+  "references": [{ "path": "../common" }, { "path": "../ui" }]
 }
