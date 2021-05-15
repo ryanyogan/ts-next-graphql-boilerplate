@@ -15,7 +15,7 @@
     "@codeponder/ui": "1.0.0",
     "apollo-boost": "^0.1.24",
     "formik": "^1.4.2",
-    "graphql": "^14.1.1",
+    "graphql": "^15.0.0",
     "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2",
     "next-routes": "^1.4.2",
