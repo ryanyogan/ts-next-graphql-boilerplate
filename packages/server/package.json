@@ -14,7 +14,7 @@
   "dependencies": {
     "@graphql-modules/epoxy": "^0.2.4",
     "@graphql-modules/sonar": "^0.2.4",
-    "apollo-server-express": "^2.2.2",
+    "apollo-server-express": "^3.0.0",
     "argon2": "^0.19.3",
     "express": "^4.16.4",
     "graphql": "^14.0.2",
