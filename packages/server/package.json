@@ -20,7 +20,7 @@
     "graphql": "^14.0.2",
     "pg": "^7.3.0",
     "reflect-metadata": "^0.1.10",
-    "type-graphql": "^0.16.0",
+    "type-graphql": "^0.17.0",
     "typeorm": "^0.2.11",
     "yup": "^0.26.6"
   },
